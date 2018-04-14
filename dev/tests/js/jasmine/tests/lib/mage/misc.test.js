@@ -49,7 +49,7 @@ define([
             var format, momentFormat;
 
             format = 'M/d/yy';
-            momentFormat = 'M/DD/YYYY';
+            momentFormat = 'M/DD/YYYY';console.warn(utils.convertToMomentFormat(format));
             expect(utils.convertToMomentFormat(format)).toBe(momentFormat);
         });
 
